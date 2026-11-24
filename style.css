@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(209, 204, 204, 0.945);
+   
+}
+
+.container {
+    background-color: rgb(12, 12, 31);
+    padding: 30px 10px;
+    min-height: 400px;
+    max-width: 400px;
+}
+
+.section1 {
+    display: flex;
+    color: #fff; 
+    background-color: aqua;
+}
+
+.account {
+    padding: 10px; 
+    flex: 1;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.signup{
+    background-color: green; 
+}
+
+.login{
+    background-color: grey;
+     
+}
+
+.section6 input, .section3  input, .section4 input{
+    background-color: unset;
+    padding: 8px;
+    outline:none;
+    color: #fff;
+    border: 1px solid grey; 
+    margin: 10px 0; 
+}
+
+.section2{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.section3  input, .section4 input, .section6 input{
+    width: calc(100% - 15px); 
+    
+}
+
+ 
+.section5 button {
+    padding: 8px;
+    background-color: rgb(21, 145, 247);
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.section7 p{
+    color: #fff;
+    width: 100%;
+    text-overflow: clip;
+    word-wrap: break-word;
+}
